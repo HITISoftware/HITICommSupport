@@ -1,22 +1,26 @@
 # HITICommSupport
-Arduino support library for HITIComm library. 
-Optimized for working with HITISoftware products (Tahiti Robotics SARL).
+Arduino support library for HITIComm library.
+<br>
+
+Optimized for working with HITISoftware products (https://hitisoftware.com, Tahiti Robotics SARL):
+* HITIPanel: GUI for Arduino projects, serial plotting and logging, GUI for Eeprom, control with keyboard
+* HITIBrain: Arduino control from Emotiv EEG headsets
 <br>
 
 # Support library
-HITIComm is an open-source library but it requires a large amount of Arduino program memory (15kB). 
-To speed up compilation, it is supplied pre-compiled to users.  
+HITIComm is an open-source library but it requires a large amount of Arduino program memory (15kB).
+To speed up compilation, it is supplied pre-compiled to users.
 However, the compiled file called "libHITIComm.a" is processor architecture-dependant (atmega328p, cortex-m0plus,...) and not board dependant.
-And HITIComm uses many board-dependant macros that can only be resolved at compile time. 
+And HITIComm uses many board-dependant macros that can only be resolved at compile time.
 The job of HITICommSupport is to resolve those macros before they are used by HITIComm.
 <br>
 
 # Documentation
-You can find getting started guides and reference documentation at https://hitisoftware.com  
+You can the reference documentation of HITIComm library at https://hitisoftware.freshdesk.com/support/home
 <br>
 
 # Contributing
-Here is the info on how you can contribute in various ways to the project: to do  
+Here is the info on how you can contribute in various ways to the project: TO DO
 <br>
 
 # Licenses

@@ -1,8 +1,11 @@
 HITICommSupport
 ---------------
 
-Arduino support library for HITIComm library. 
-Optimized for working with HITISoftware products (Tahiti Robotics SARL).
+Arduino support library for HITIComm library.
+
+Optimized for working with HITISoftware products (https://hitisoftware.com, Tahiti Robotics SARL):
+* HITIPanel: GUI for Arduino projects, serial plotting and logging, GUI for Eeprom, control with keyboard
+* HITIBrain: Arduino control from Emotiv EEG headsets
 
 
 Support library
@@ -16,12 +19,12 @@ The job of HITICommSupport is to resolve those macros before they are used by HI
 
 Documentation
 -------------
-You can find getting started guides and reference documentation at https://hitisoftware.com  
+You can the reference documentation of HITIComm library at https://hitisoftware.freshdesk.com/support/home
 
 
 Contributing
 ------------
-Here is the info on how you can contribute in various ways to the project: to do  
+Here is the info on how you can contribute in various ways to the project: TO DO
 
 
 Licenses
