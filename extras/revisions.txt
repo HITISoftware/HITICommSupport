@@ -1,5 +1,22 @@
 HITIComm revisions ********************************************
 
+1.6.0 (2023-10-04)
+	- No changes
+
+1.5.9 (2023-07-25)
+	- No changes
+
+1.5.8 (2023-07-16)
+	HCS_Toolbox:
+		* added define: HCS_constrain()
+		* added function: float HCS_map()
+
+1.5.7 (2023-07-10)
+	- No changes
+
+1.5.6 (2023-07-02)
+	- No changes
+
 1.5.5 (2023-05-05)
 	- License:
 		* Apache License 2.0

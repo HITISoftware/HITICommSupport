@@ -37,7 +37,8 @@
 // Math ---------------------------------------------------------------------
 // --------------------------------------------------------------------------
 
-#define HCS_abs(value)   (((value) < 0) ? -(value) : (value))
+#define HCS_abs(value)                   (((value) < 0) ? -(value) : (value))
+#define HCS_constrain(value, min, max)   (value > max ? max : (value < min ? min : value))
 
 
 
@@ -74,5 +75,17 @@
 #define HCS_getLowWord(dwordValue)       ((uint16_t) (dwordValue & 0xFFFF))
 #define HCS_getHighWord(dwordValue)      ((uint16_t) (dwordValue >> 16))
 
+
+
+// *****************************************************************************
+// Method
+// *****************************************************************************
+
+
+// --------------------------------------------------------------------------
+// Math ---------------------------------------------------------------------
+// --------------------------------------------------------------------------
+
+float HCS_map(float input_value, float inputRange_min, float inputRange_max, float outputRange_min, float outputRange_max);
 
 #endif
